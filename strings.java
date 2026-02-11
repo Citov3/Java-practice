@@ -1,13 +1,14 @@
 public class strings {
-    public static void main(String[] args) {
-        
-       String str1 = "Hello";
+    private String name;
+    private int age;
 
-       System.out.println(str1);
+    public strings(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
-       
 
-   
+    public static void main(String[] args) {   
         
     }
 }
